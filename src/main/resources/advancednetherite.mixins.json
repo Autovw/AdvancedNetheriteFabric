@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.autovw.advancednetherite.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "EndermanEntityMixin",
+    "PiglinBrainMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

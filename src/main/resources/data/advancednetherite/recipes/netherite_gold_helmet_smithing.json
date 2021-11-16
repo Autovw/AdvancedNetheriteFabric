@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "advancednetherite:helmets/upgrade_to_netherite_gold"
+  },
+  "addition": {
+    "tag": "advancednetherite:upgrade_to_netherite_gold"
+  },
+  "result": {
+    "item": "advancednetherite:netherite_gold_helmet"
+  }
+}
