@@ -2,6 +2,9 @@ package com.autovw.advancednetherite.core;
 
 import com.autovw.advancednetherite.AdvancedNetheriteFabric;
 import com.autovw.advancednetherite.Reference;
+import com.autovw.advancednetherite.content.armor.NetheriteDiamondArmorItem;
+import com.autovw.advancednetherite.content.armor.NetheriteEmeraldArmorItem;
+import com.autovw.advancednetherite.content.armor.NetheriteGoldArmorItem;
 import com.autovw.advancednetherite.content.tools.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
@@ -26,20 +29,20 @@ public class ModItems {
     public static final Item NETHERITE_IRON_LEGGINGS = new ArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
     public static final Item NETHERITE_IRON_BOOTS = new ArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
     // Netherite-Gold
-    public static final Item NETHERITE_GOLD_HELMET = new ArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
-    public static final Item NETHERITE_GOLD_CHESTPLATE = new ArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
-    public static final Item NETHERITE_GOLD_LEGGINGS = new ArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
-    public static final Item NETHERITE_GOLD_BOOTS = new ArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
+    public static final Item NETHERITE_GOLD_HELMET = new NetheriteGoldArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
+    public static final Item NETHERITE_GOLD_CHESTPLATE = new NetheriteGoldArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
+    public static final Item NETHERITE_GOLD_LEGGINGS = new NetheriteGoldArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
+    public static final Item NETHERITE_GOLD_BOOTS = new NetheriteGoldArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
     // Netherite-Emerald
-    public static final Item NETHERITE_EMERALD_HELMET = new ArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
-    public static final Item NETHERITE_EMERALD_CHESTPLATE = new ArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
-    public static final Item NETHERITE_EMERALD_LEGGINGS = new ArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
-    public static final Item NETHERITE_EMERALD_BOOTS = new ArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
+    public static final Item NETHERITE_EMERALD_HELMET = new NetheriteEmeraldArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
+    public static final Item NETHERITE_EMERALD_CHESTPLATE = new NetheriteEmeraldArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
+    public static final Item NETHERITE_EMERALD_LEGGINGS = new NetheriteEmeraldArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
+    public static final Item NETHERITE_EMERALD_BOOTS = new NetheriteEmeraldArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
     // Netherite-Diamond
-    public static final Item NETHERITE_DIAMOND_HELMET = new ArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
-    public static final Item NETHERITE_DIAMOND_CHESTPLATE = new ArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
-    public static final Item NETHERITE_DIAMOND_LEGGINGS = new ArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
-    public static final Item NETHERITE_DIAMOND_BOOTS = new ArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
+    public static final Item NETHERITE_DIAMOND_HELMET = new NetheriteDiamondArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
+    public static final Item NETHERITE_DIAMOND_CHESTPLATE = new NetheriteDiamondArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
+    public static final Item NETHERITE_DIAMOND_LEGGINGS = new NetheriteDiamondArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
+    public static final Item NETHERITE_DIAMOND_BOOTS = new NetheriteDiamondArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof()));
 
     // Tools
     // Axes
