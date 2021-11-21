@@ -1,9 +1,11 @@
 ![Banner](https://i.postimg.cc/9QSbwK7q/Advanced-Netherite-Banner.png)
 # Advanced Netherite [FABRIC]
 
-*Official Fabric port of [Advanced Netherite for Forge](https://www.curseforge.com/minecraft/mc-mods/advanced-netherite).*
+This is the **Fabric** version, click [here](https://www.curseforge.com/minecraft/mc-mods/advanced-netherite) for the Forge version.
 
-Advanced Netherite is a vanilla friendly and open-source mod that adds in more tiers of Netherite!
+![Break](https://i.postimg.cc/FKmD9Nbm/advancednetheritebreak.png)
+### 📖 About
+**Advanced Netherite** is a vanilla friendly and open-source mod that adds in more tiers of Netherite!
 The goal of the mod is to extend the vanilla Minecraft experience by adding more goals to achieve.
 
 For more information visit the [Advanced Netherite Wiki](https://github.com/Autovw/AdvancedNetherite/wiki)!
