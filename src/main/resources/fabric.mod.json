@@ -10,7 +10,6 @@
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/advanced-netherite-fabric",
-    "discord": "https://discord.gg/KP3BBatuw5",
     "issues": "https://github.com/Autovw/AdvancedNetheriteFabric/issues",
     "sources": "https://github.com/Autovw/AdvancedNetheriteFabric"
   },
@@ -36,5 +35,12 @@
   },
   "suggests": {
     "another-mod": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/KP3BBatuw5"
+      }
+    }
   }
 }
