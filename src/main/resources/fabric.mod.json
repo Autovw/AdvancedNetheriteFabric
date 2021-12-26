@@ -39,7 +39,9 @@
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.discord": "https://discord.gg/KP3BBatuw5"
+        "modmenu.discord": "https://discord.gg/KP3BBatuw5",
+        "modmenu.wiki": "https://github.com/Autovw/AdvancedNetheriteFabric/wiki",
+        "modmenu.twitter": "https://twitter.com/JoranAutovw"
       }
     }
   }
