@@ -11,11 +11,12 @@ version = project.mod_version + "-" + project.minecraft_version
 group = project.maven_group
 
 repositories {
-	// Add repositories to retrieve artifacts from in here.
-	// You should only use this when depending on other mods because
-	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
-	// for more information about repositories.
+	maven {
+		url "https://www.cursemaven.com"
+		content {
+			includeGroup "curse.maven"
+		}
+	}
 }
 
 dependencies {
@@ -25,6 +26,9 @@ dependencies {
 
 	// Fabric API.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	// ModMenu
+	modRuntimeOnly "curse.maven:modmenu-308702:${project.modmenu_version}"
 }
 
 processResources {
