@@ -4,6 +4,7 @@
   "package": "com.autovw.advancednetherite.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "ArmorItemMixin",
     "EndermanEntityMixin",
     "PiglinBrainMixin"
   ],

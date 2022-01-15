@@ -7,7 +7,7 @@ import net.minecraft.item.ArmorMaterial;
 /**
  * Author: Autovw
  */
-public class ModArmorItem extends ArmorItem {
+public class ModArmorItem extends ArmorItem implements IAdvancedArmorItem {
     public ModArmorItem(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
         super(material, slot, settings);
     }
@@ -15,5 +15,10 @@ public class ModArmorItem extends ArmorItem {
     @Override
     public boolean isFireproof() {
         return true;
+    }
+
+    @Override
+    public boolean hasKnockbackResistance() {
+        return getMaterial().getKnockbackResistance() > 0;
     }
 }
