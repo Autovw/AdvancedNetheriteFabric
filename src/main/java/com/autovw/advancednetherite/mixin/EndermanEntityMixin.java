@@ -7,6 +7,7 @@ import net.minecraft.entity.mob.EndermanEntity;
 import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ArmorItem;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
@@ -23,15 +24,17 @@ public abstract class EndermanEntityMixin extends HostileEntity implements Anger
         super(entityType, world);
     }
 
-    // There are probably better ways to write this Mixin but if it works and doesn't crash I'm fine with this.
+    // Mixin related to "Pacifies Endermen" armor perk
     @Inject(method = "isPlayerStaring", at = @At("HEAD"), cancellable = true)
     private void advancednetherite_isPlayerStaring(PlayerEntity player, CallbackInfoReturnable<Boolean> cir) {
-        ItemStack stack = player.getInventory().armor.get(3);
-        if (stack.getItem() instanceof ArmorItem && ((ArmorItem) stack.getItem()).getMaterial() == ModArmorTiers.NETHERITE_EMERALD) {
-            cir.setReturnValue(false);
-        }
-        if (stack.getItem() instanceof ArmorItem && ((ArmorItem) stack.getItem()).getMaterial() == ModArmorTiers.NETHERITE_DIAMOND) {
-            cir.setReturnValue(false);
+        for (ItemStack stack : player.getArmorItems()) {
+            Item item = stack.getItem();
+            if (item instanceof ArmorItem && ((ArmorItem) item).getMaterial() == ModArmorTiers.NETHERITE_EMERALD) {
+                cir.setReturnValue(false);
+            }
+            if (item instanceof ArmorItem && ((ArmorItem) item).getMaterial() == ModArmorTiers.NETHERITE_DIAMOND) {
+                cir.setReturnValue(false);
+            }
         }
     }
 }
