@@ -22,10 +22,10 @@ public class ModItems {
 
     // Armor
     // Netherite-Iron
-    public static final Item NETHERITE_IRON_HELMET = new ModArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_IRON_CHESTPLATE = new ModArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_IRON_LEGGINGS = new ModArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_IRON_BOOTS = new ModArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_IRON_HELMET = new NetheriteIronArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_IRON_CHESTPLATE = new NetheriteIronArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_IRON_LEGGINGS = new NetheriteIronArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_IRON_BOOTS = new NetheriteIronArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
     // Netherite-Gold
     public static final Item NETHERITE_GOLD_HELMET = new NetheriteGoldArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
     public static final Item NETHERITE_GOLD_CHESTPLATE = new NetheriteGoldArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
