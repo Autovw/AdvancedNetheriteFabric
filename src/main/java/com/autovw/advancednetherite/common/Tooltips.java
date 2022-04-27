@@ -1,4 +1,4 @@
-package com.autovw.advancednetherite.content;
+package com.autovw.advancednetherite.common;
 
 import com.autovw.advancednetherite.Reference;
 import net.minecraft.text.TranslatableText;

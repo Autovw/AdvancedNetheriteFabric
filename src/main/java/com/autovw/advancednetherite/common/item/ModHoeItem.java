@@ -1,14 +1,14 @@
-package com.autovw.advancednetherite.content.tools;
+package com.autovw.advancednetherite.common.item;
 
-import net.minecraft.item.ShovelItem;
+import net.minecraft.item.HoeItem;
 import net.minecraft.item.ToolMaterial;
 
 /**
  * Author: Autovw
  */
-public class ModShovelItem extends ShovelItem {
+public class ModHoeItem extends HoeItem {
     // Can't use the vanilla classes on Fabric because the constructors are protected. Very nice.
-    public ModShovelItem(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings) {
+    public ModHoeItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
         super(material, attackDamage, attackSpeed, settings);
     }
 

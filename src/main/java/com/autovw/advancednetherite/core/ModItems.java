@@ -2,8 +2,7 @@ package com.autovw.advancednetherite.core;
 
 import com.autovw.advancednetherite.AdvancedNetheriteFabric;
 import com.autovw.advancednetherite.Reference;
-import com.autovw.advancednetherite.content.armor.*;
-import com.autovw.advancednetherite.content.tools.*;
+import com.autovw.advancednetherite.common.item.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;

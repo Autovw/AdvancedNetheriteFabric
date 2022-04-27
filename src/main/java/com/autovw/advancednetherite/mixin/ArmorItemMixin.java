@@ -1,6 +1,6 @@
 package com.autovw.advancednetherite.mixin;
 
-import com.autovw.advancednetherite.content.armor.IAdvancedArmorItem;
+import com.autovw.advancednetherite.common.item.IAdvancedArmorItem;
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
 import net.minecraft.entity.EquipmentSlot;

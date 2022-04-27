@@ -1,6 +1,6 @@
 package com.autovw.advancednetherite.mixin;
 
-import com.autovw.advancednetherite.content.armor.ModArmorItem;
+import com.autovw.advancednetherite.common.item.ModArmorItem;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.mob.PiglinBrain;
 import net.minecraft.item.Item;

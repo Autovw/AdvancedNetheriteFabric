@@ -1,4 +1,4 @@
-package com.autovw.advancednetherite.content.tools;
+package com.autovw.advancednetherite.common.item;
 
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;

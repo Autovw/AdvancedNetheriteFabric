@@ -1,6 +1,6 @@
 package com.autovw.advancednetherite.mixin;
 
-import com.autovw.advancednetherite.content.armor.ModArmorItem;
+import com.autovw.advancednetherite.common.item.ModArmorItem;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.mob.Angerable;
 import net.minecraft.entity.mob.EndermanEntity;

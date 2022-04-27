@@ -1,4 +1,4 @@
-package com.autovw.advancednetherite.content.armor;
+package com.autovw.advancednetherite.common.item;
 
 /**
  * Author: Autovw
