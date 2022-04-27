@@ -1,7 +1,6 @@
 package com.autovw.advancednetherite.mixin;
 
 import com.autovw.advancednetherite.content.armor.ModArmorItem;
-import com.autovw.advancednetherite.core.ModArmorTiers;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.mob.FlyingEntity;
@@ -32,8 +31,8 @@ public abstract class PhantomEntityMixin extends FlyingEntity implements Monster
         if (target instanceof PlayerEntity) {
             for (ItemStack stack : target.getArmorItems()) {
                 Item item = stack.getItem();
-                if (item instanceof ModArmorItem && ((ModArmorItem) item).getMaterial() == ModArmorTiers.NETHERITE_IRON) {
-                    phantom.setTarget(null); // set target to null
+                if (item instanceof ModArmorItem && ((ModArmorItem) item).pacifyPhantoms(stack)) {
+                    phantom.setTarget(null);
                 }
             }
         }

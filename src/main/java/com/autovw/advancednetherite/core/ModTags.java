@@ -139,6 +139,11 @@ public class ModTags {
     public static final TagKey<Item> TIERS_TOOLS_NETHERITE_GOLD = itemTag("tiers/tools/netherite_gold");
     public static final TagKey<Item> TIERS_TOOLS_NETHERITE_IRON = itemTag("tiers/tools/netherite_iron");
 
+    // "config" tags
+    public static final TagKey<Item> CONFIG_PACIFY_PHANTOMS = itemTag("config/pacify_phantoms");
+    public static final TagKey<Item> CONFIG_PACIFY_PIGLINS = itemTag("config/pacify_piglins");
+    public static final TagKey<Item> CONFIG_PACIFY_ENDERMEN = itemTag("config/pacify_endermen");
+
     private static TagKey<Item> itemTag(String path) {
         return TagKey.of(Registry.ITEM_KEY, new Identifier(Reference.MOD_ID, path));
     }

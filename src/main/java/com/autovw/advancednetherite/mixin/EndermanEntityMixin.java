@@ -1,12 +1,11 @@
 package com.autovw.advancednetherite.mixin;
 
-import com.autovw.advancednetherite.core.ModArmorTiers;
+import com.autovw.advancednetherite.content.armor.ModArmorItem;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.mob.Angerable;
 import net.minecraft.entity.mob.EndermanEntity;
 import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
@@ -29,10 +28,7 @@ public abstract class EndermanEntityMixin extends HostileEntity implements Anger
     private void advancednetherite_isPlayerStaring(PlayerEntity player, CallbackInfoReturnable<Boolean> cir) {
         for (ItemStack stack : player.getArmorItems()) {
             Item item = stack.getItem();
-            if (item instanceof ArmorItem && ((ArmorItem) item).getMaterial() == ModArmorTiers.NETHERITE_EMERALD) {
-                cir.setReturnValue(false);
-            }
-            if (item instanceof ArmorItem && ((ArmorItem) item).getMaterial() == ModArmorTiers.NETHERITE_DIAMOND) {
+            if (item instanceof ModArmorItem && ((ModArmorItem) item).pacifyEndermen(stack)) {
                 cir.setReturnValue(false);
             }
         }
