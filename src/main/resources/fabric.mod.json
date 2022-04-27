@@ -21,6 +21,9 @@
   "entrypoints": {
     "main": [
       "com.autovw.advancednetherite.AdvancedNetheriteFabric"
+    ],
+    "client": [
+      "com.autovw.advancednetherite.client.ClientHandler"
     ]
   },
   "mixins": [
@@ -33,8 +36,8 @@
     "minecraft": "1.18.2",
     "java": ">=17"
   },
-  "suggests": {
-    "another-mod": "*"
+  "recommends": {
+    "detailab": "=>2.6.2"
   },
   "custom": {
     "modmenu": {
