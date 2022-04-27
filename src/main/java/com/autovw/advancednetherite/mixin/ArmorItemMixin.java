@@ -1,6 +1,6 @@
 package com.autovw.advancednetherite.mixin;
 
-import com.autovw.advancednetherite.common.item.IAdvancedArmorItem;
+import com.autovw.advancednetherite.common.item.AdvancedArmorItem;
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
 import net.minecraft.entity.EquipmentSlot;
@@ -24,7 +24,7 @@ import java.util.UUID;
  * Author: Autovw
  */
 @Mixin(ArmorItem.class)
-public abstract class ArmorItemMixin implements IAdvancedArmorItem {
+public abstract class ArmorItemMixin {
 
     @Shadow
     @Final
@@ -43,8 +43,9 @@ public abstract class ArmorItemMixin implements IAdvancedArmorItem {
     @Inject(method = "<init>", at = @At(value = "RETURN"))
     private void advancednetherite_ArmorItem(ArmorMaterial material, EquipmentSlot slot, Item.Settings settings, CallbackInfo ci) {
         UUID uuid = MODIFIERS[slot.getEntitySlotId()];
+        ArmorItem armorItem = (ArmorItem) (Object) this;
 
-        if (hasKnockbackResistance() && this.knockbackResistance > 0) {
+        if (armorItem instanceof AdvancedArmorItem && this.knockbackResistance > 0) {
             ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
 
             this.attributeModifiers.forEach(builder::put);

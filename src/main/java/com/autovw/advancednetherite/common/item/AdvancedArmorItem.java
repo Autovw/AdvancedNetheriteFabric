@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * Author: Autovw
  */
-public class AdvancedArmorItem extends ArmorItem implements IAdvancedArmorItem {
+public class AdvancedArmorItem extends ArmorItem {
     public AdvancedArmorItem(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
         super(material, slot, settings);
     }
@@ -43,10 +43,5 @@ public class AdvancedArmorItem extends ArmorItem implements IAdvancedArmorItem {
 
     public boolean pacifyEndermen(ItemStack stack) {
         return stack.isIn(ModTags.CONFIG_PACIFY_ENDERMEN);
-    }
-
-    @Override
-    public boolean hasKnockbackResistance() {
-        return getMaterial().getKnockbackResistance() > 0;
     }
 }
