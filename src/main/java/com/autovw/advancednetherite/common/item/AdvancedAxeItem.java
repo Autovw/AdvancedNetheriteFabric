@@ -1,14 +1,14 @@
 package com.autovw.advancednetherite.common.item;
 
-import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.ToolMaterial;
 
 /**
  * Author: Autovw
  */
-public class ModPickaxeItem extends PickaxeItem {
+public class AdvancedAxeItem extends AxeItem {
     // Can't use the vanilla classes on Fabric because the constructors are protected. Very nice.
-    public ModPickaxeItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
+    public AdvancedAxeItem(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings) {
         super(material, attackDamage, attackSpeed, settings);
     }
 

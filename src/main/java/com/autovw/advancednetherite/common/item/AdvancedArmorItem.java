@@ -16,8 +16,8 @@ import java.util.List;
 /**
  * Author: Autovw
  */
-public class ModArmorItem extends ArmorItem implements IAdvancedArmorItem {
-    public ModArmorItem(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
+public class AdvancedArmorItem extends ArmorItem implements IAdvancedArmorItem {
+    public AdvancedArmorItem(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
         super(material, slot, settings);
     }
 

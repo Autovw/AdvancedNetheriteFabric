@@ -6,9 +6,9 @@ import net.minecraft.item.ToolMaterial;
 /**
  * Author: Autovw
  */
-public class ModShovelItem extends ShovelItem {
+public class AdvancedShovelItem extends ShovelItem {
     // Can't use the vanilla classes on Fabric because the constructors are protected. Very nice.
-    public ModShovelItem(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings) {
+    public AdvancedShovelItem(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings) {
         super(material, attackDamage, attackSpeed, settings);
     }
 

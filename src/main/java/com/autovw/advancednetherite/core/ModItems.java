@@ -21,52 +21,52 @@ public class ModItems {
 
     // Armor
     // Netherite-Iron
-    public static final Item NETHERITE_IRON_HELMET = new ModArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_IRON_CHESTPLATE = new ModArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_IRON_LEGGINGS = new ModArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_IRON_BOOTS = new ModArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_IRON_HELMET = new AdvancedArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_IRON_CHESTPLATE = new AdvancedArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_IRON_LEGGINGS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_IRON_BOOTS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
     // Netherite-Gold
-    public static final Item NETHERITE_GOLD_HELMET = new ModArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_GOLD_CHESTPLATE = new ModArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_GOLD_LEGGINGS = new ModArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_GOLD_BOOTS = new ModArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_GOLD_HELMET = new AdvancedArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_GOLD_CHESTPLATE = new AdvancedArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_GOLD_LEGGINGS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_GOLD_BOOTS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
     // Netherite-Emerald
-    public static final Item NETHERITE_EMERALD_HELMET = new ModArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_EMERALD_CHESTPLATE = new ModArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_EMERALD_LEGGINGS = new ModArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_EMERALD_BOOTS = new ModArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_EMERALD_HELMET = new AdvancedArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_EMERALD_CHESTPLATE = new AdvancedArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_EMERALD_LEGGINGS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_EMERALD_BOOTS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
     // Netherite-Diamond
-    public static final Item NETHERITE_DIAMOND_HELMET = new ModArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_DIAMOND_CHESTPLATE = new ModArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_DIAMOND_LEGGINGS = new ModArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
-    public static final Item NETHERITE_DIAMOND_BOOTS = new ModArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_DIAMOND_HELMET = new AdvancedArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.HEAD, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_DIAMOND_CHESTPLATE = new AdvancedArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.CHEST, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_DIAMOND_LEGGINGS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.LEGS, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
+    public static final Item NETHERITE_DIAMOND_BOOTS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.FEET, (new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB)));
 
     // Tools
     // Axes
-    public static final ToolItem NETHERITE_IRON_AXE = new ModAxeItem(ModToolTiers.NETHERITE_IRON, 5, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_GOLD_AXE = new ModAxeItem(ModToolTiers.NETHERITE_GOLD, 6, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_EMERALD_AXE = new ModAxeItem(ModToolTiers.NETHERITE_EMERALD, 6, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_DIAMOND_AXE = new ModAxeItem(ModToolTiers.NETHERITE_DIAMOND, 7, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_IRON_AXE = new AdvancedAxeItem(ModToolTiers.NETHERITE_IRON, 5, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_GOLD_AXE = new AdvancedAxeItem(ModToolTiers.NETHERITE_GOLD, 6, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_EMERALD_AXE = new AdvancedAxeItem(ModToolTiers.NETHERITE_EMERALD, 6, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_DIAMOND_AXE = new AdvancedAxeItem(ModToolTiers.NETHERITE_DIAMOND, 7, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
     // Hoes
-    public static final ToolItem NETHERITE_IRON_HOE = new ModHoeItem(ModToolTiers.NETHERITE_IRON, -4, 0.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_GOLD_HOE= new ModHoeItem(ModToolTiers.NETHERITE_GOLD, -4, 0.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_EMERALD_HOE = new ModHoeItem(ModToolTiers.NETHERITE_EMERALD, -5, 0.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_DIAMOND_HOE = new ModHoeItem(ModToolTiers.NETHERITE_DIAMOND, -5, 0.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_IRON_HOE = new AdvancedHoeItem(ModToolTiers.NETHERITE_IRON, -4, 0.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_GOLD_HOE= new AdvancedHoeItem(ModToolTiers.NETHERITE_GOLD, -4, 0.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_EMERALD_HOE = new AdvancedHoeItem(ModToolTiers.NETHERITE_EMERALD, -5, 0.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_DIAMOND_HOE = new AdvancedHoeItem(ModToolTiers.NETHERITE_DIAMOND, -5, 0.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
     // Pickaxes
-    public static final ToolItem NETHERITE_IRON_PICKAXE = new ModPickaxeItem(ModToolTiers.NETHERITE_IRON, 1, -2.8f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_GOLD_PICKAXE = new ModPickaxeItem(ModToolTiers.NETHERITE_GOLD, 1, -2.8f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_EMERALD_PICKAXE = new ModPickaxeItem(ModToolTiers.NETHERITE_EMERALD, 1, -2.8f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_DIAMOND_PICKAXE = new ModPickaxeItem(ModToolTiers.NETHERITE_DIAMOND, 1, -2.8f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_IRON_PICKAXE = new AdvancedPickaxeItem(ModToolTiers.NETHERITE_IRON, 1, -2.8f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_GOLD_PICKAXE = new AdvancedPickaxeItem(ModToolTiers.NETHERITE_GOLD, 1, -2.8f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_EMERALD_PICKAXE = new AdvancedPickaxeItem(ModToolTiers.NETHERITE_EMERALD, 1, -2.8f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_DIAMOND_PICKAXE = new AdvancedPickaxeItem(ModToolTiers.NETHERITE_DIAMOND, 1, -2.8f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
     // Shovels
-    public static final ToolItem NETHERITE_IRON_SHOVEL = new ModShovelItem(ModToolTiers.NETHERITE_IRON, 1.5F, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_GOLD_SHOVEL = new ModShovelItem(ModToolTiers.NETHERITE_GOLD, 1.5F, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_EMERALD_SHOVEL = new ModShovelItem(ModToolTiers.NETHERITE_EMERALD, 1, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_DIAMOND_SHOVEL = new ModShovelItem(ModToolTiers.NETHERITE_DIAMOND, 1, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_IRON_SHOVEL = new AdvancedShovelItem(ModToolTiers.NETHERITE_IRON, 1.5F, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_GOLD_SHOVEL = new AdvancedShovelItem(ModToolTiers.NETHERITE_GOLD, 1.5F, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_EMERALD_SHOVEL = new AdvancedShovelItem(ModToolTiers.NETHERITE_EMERALD, 1, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_DIAMOND_SHOVEL = new AdvancedShovelItem(ModToolTiers.NETHERITE_DIAMOND, 1, -3.0f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
     // Axes
-    public static final ToolItem NETHERITE_IRON_SWORD = new ModSwordItem(ModToolTiers.NETHERITE_IRON, 3, -2.4f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_GOLD_SWORD = new ModSwordItem(ModToolTiers.NETHERITE_GOLD, 4, -2.4f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_EMERALD_SWORD = new ModSwordItem(ModToolTiers.NETHERITE_EMERALD, 4, -2.4f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
-    public static final ToolItem NETHERITE_DIAMOND_SWORD = new ModSwordItem(ModToolTiers.NETHERITE_DIAMOND, 5, -2.4f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_IRON_SWORD = new AdvancedSwordItem(ModToolTiers.NETHERITE_IRON, 3, -2.4f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_GOLD_SWORD = new AdvancedSwordItem(ModToolTiers.NETHERITE_GOLD, 4, -2.4f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_EMERALD_SWORD = new AdvancedSwordItem(ModToolTiers.NETHERITE_EMERALD, 4, -2.4f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
+    public static final ToolItem NETHERITE_DIAMOND_SWORD = new AdvancedSwordItem(ModToolTiers.NETHERITE_DIAMOND, 5, -2.4f, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB));
 
     // Block items
     public static final BlockItem NETHERITE_IRON_BLOCK = new BlockItem(ModBlocks.NETHERITE_IRON_BLOCK, new Item.Settings().group(AdvancedNetheriteFabric.CREATIVE_TAB).fireproof());

@@ -1,6 +1,6 @@
 package com.autovw.advancednetherite.mixin;
 
-import com.autovw.advancednetherite.common.item.ModArmorItem;
+import com.autovw.advancednetherite.common.item.AdvancedArmorItem;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.mob.PiglinBrain;
 import net.minecraft.item.Item;
@@ -20,7 +20,7 @@ public class PiglinBrainMixin {
     private static void advancednetherite_wearsGoldArmor(LivingEntity entity, CallbackInfoReturnable<Boolean> cir) {
         for (ItemStack stack : entity.getArmorItems()) {
             Item item = stack.getItem();
-            if (item instanceof ModArmorItem && ((ModArmorItem) item).pacifyPiglins(stack)) {
+            if (item instanceof AdvancedArmorItem && ((AdvancedArmorItem) item).pacifyPiglins(stack)) {
                 cir.setReturnValue(true);
             }
         }
