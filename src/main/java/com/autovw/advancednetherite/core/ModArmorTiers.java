@@ -1,5 +1,6 @@
 package com.autovw.advancednetherite.core;
 
+import com.autovw.advancednetherite.Reference;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
@@ -64,10 +65,15 @@ public enum ModArmorTiers implements ArmorMaterial {
         return Ingredient.ofStacks(this.repairIngredient.getDefaultStack());
     }
 
-    // Fabric is too dumb to load textures from the correct directory so the textures need to be placed in the 'minecraft' directory. Very nice.
+    /**
+     * By default, armor textures are loaded from the 'minecraft' namespace.
+     * Thanks to {@link com.autovw.advancednetherite.mixin.ArmorFeatureRendererMixin} we can load them from a custom namespace.
+     * Bear in mind the armor item <b>must be</b> an instance of {@link com.autovw.advancednetherite.common.item.AdvancedArmorItem} for maximum compatibility with other mods.
+     * @return Name of the tier
+     */
     @Override
     public String getName() {
-        return this.name;
+        return Reference.MOD_ID + ":" + this.name;
     }
 
     @Override

@@ -16,7 +16,8 @@ import java.util.List;
 /**
  * Author: Autovw
  * <br/>
- * Implementation of {@link ArmorItem} which fixes Knockback resistance not applying to armor (See {@link com.autovw.advancednetherite.mixin.ArmorItemMixin})
+ * Implementation of {@link ArmorItem} which fixes Knockback resistance not applying to armor (See: {@link com.autovw.advancednetherite.mixin.ArmorItemMixin}),
+ * armor textures not loading from custom namespaces (See: {@link com.autovw.advancednetherite.mixin.ArmorFeatureRendererMixin}),
  * and compatibility with armor perks added by Advanced Netherite.
  * @since 1.5.0
  */
