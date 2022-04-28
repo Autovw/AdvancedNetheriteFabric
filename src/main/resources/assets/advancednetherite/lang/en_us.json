@@ -56,9 +56,9 @@
 
   "itemGroup.advancednetherite.tab": "Advanced Netherite",
 
-  "tooltip.advancednetherite.endermask_armor.perk_one": "+ Pacifies Endermen",
-  "tooltip.advancednetherite.piglinpassive_armor.perk_one": "+ Pacifies Piglins",
-  "tooltip.advancednetherite.phantompassive_armor.perk_one": "+ Pacifies Phantoms",
+  "tooltip.advancednetherite.armor.enderman_passive": "+ Pacifies Endermen",
+  "tooltip.advancednetherite.armor.piglin_passive": "+ Pacifies Piglins",
+  "tooltip.advancednetherite.armor.phantom_passive": "+ Pacifies Phantoms",
 
   "advancements.advancednetherite.husbandry.netherite_diamond_hoe.title": "Why?",
   "advancements.advancednetherite.husbandry.netherite_diamond_hoe.description": "Craft a Netherite-Diamond Hoe and visit a psychologist afterwards",

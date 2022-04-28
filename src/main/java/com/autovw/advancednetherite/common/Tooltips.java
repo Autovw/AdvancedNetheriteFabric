@@ -9,9 +9,9 @@ import net.minecraft.util.Formatting;
  */
 public class Tooltips {
 
-    public static final TranslatableText endermaskTooltip = tooltip("endermask_armor.perk_one", Formatting.DARK_GREEN);
-    public static final TranslatableText piglinPassiveTooltip = tooltip("piglinpassive_armor.perk_one", Formatting.GOLD);
-    public static final TranslatableText phantomPassiveTooltip = tooltip("phantompassive_armor.perk_one", Formatting.GRAY);
+    public static final TranslatableText endermaskTooltip = tooltip("armor.enderman_passive", Formatting.DARK_GREEN);
+    public static final TranslatableText piglinPassiveTooltip = tooltip("armor.piglin_passive", Formatting.GOLD);
+    public static final TranslatableText phantomPassiveTooltip = tooltip("armor.phantom_passive", Formatting.GRAY);
 
     // Helper method used to create tooltips
     private static TranslatableText tooltip(String tooltipName, Formatting tooltipFormat) {
