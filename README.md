@@ -1,4 +1,4 @@
-![Banner](https://i.postimg.cc/9QSbwK7q/Advanced-Netherite-Banner.png)
+![Banner](https://i.postimg.cc/DZ2ShqTP/Advanced-Netherite-Banner-V11fabric.png)
 # Advanced Netherite [FABRIC]
 
 This is the **Fabric** version, click [here](https://www.curseforge.com/minecraft/mc-mods/advanced-netherite) for the Forge version.
@@ -13,12 +13,13 @@ For more information visit the [Advanced Netherite Wiki](https://github.com/Auto
 ![Break](https://i.postimg.cc/FKmD9Nbm/advancednetheritebreak.png)
 ### ✅ Features
 
-[![Features](https://i.postimg.cc/nVGNLfCk/Advanced-Netherite-Features2.png)](https://github.com/Autovw/AdvancedNetherite/wiki)
+[![Features](https://i.postimg.cc/MTdvpvZ2/Advanced-Netherite-Features-V11fabric.png)](https://github.com/Autovw/AdvancedNetherite/wiki)
 
 * 4 new tiers of Netherite!
-* For all new tiers of Netherite there are sets of tools, sets of armor and blocks.
-* Every Netherite tier has its own unique properties.
-* Read more about the features in the Fabric version vs the Forge version [here]()!
+* For all new tiers of Netherite there are sets of tools, sets of armor and blocks
+* Every Netherite tier has its own unique properties
+* Optional support for [Detail Armor Bar](https://www.curseforge.com/minecraft/mc-mods/detail-armor-bar) mod!
+* Read more about the features in the Fabric version vs the Forge version [here](https://github.com/Autovw/AdvancedNetheriteFabric/wiki/Features:-Fabric-vs-Forge)!
 
 ![Break](https://i.postimg.cc/FKmD9Nbm/advancednetheritebreak.png)
 ### 💎 Tiers of Netherite
@@ -34,6 +35,7 @@ Check the [Advanced Netherite Wiki](https://github.com/Autovw/AdvancedNetherite/
 * Please report issues to the [issue tracker on GitHub](https://github.com/Autovw/AdvancedNetheriteFabric/issues)!
 * May I feature your mod in my modpack? Yes, absolutely!
 * Checkout the [Forge version here](https://www.curseforge.com/minecraft/mc-mods/advanced-netherite)!
+* Click [here](https://www.curseforge.com/minecraft/mc-mods/advanced-netherite-fabric/screenshots) for more images!
 * Visit the [Advanced Netherite Wiki](https://github.com/Autovw/AdvancedNetherite/wiki) for more information on everything this mod adds.
 
 ![Break](https://i.postimg.cc/FKmD9Nbm/advancednetheritebreak.png)
@@ -42,5 +44,7 @@ Check the [Advanced Netherite Wiki](https://github.com/Autovw/AdvancedNetherite/
 
 ![Break](https://i.postimg.cc/FKmD9Nbm/advancednetheritebreak.png)
 #### ⚠️ Disclaimer
-This mod should only be downloaded from [this CurseForge page](https://www.curseforge.com/minecraft/mc-mods/advanced-netherite-fabric) and my [GitHub](https://github.com/Autovw/AdvancedNetherite/releases).
-Do not reupload or download the mod from any other download sources as they might be malicious.
+This mod is only distributed through [this](https://www.curseforge.com/minecraft/mc-mods/advanced-netherite) CurseForge page and the [official GitHub repository](https://github.com/Autovw/AdvancedNetherite/releases).
+Please do not redistribute this mod *or* download this mod from any other download source.
+
+For more detail on mod reposts, and how to stay protected against them, visit: [stopmodreposts.org](https://stopmodreposts.org).
