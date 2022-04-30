@@ -9,8 +9,10 @@ import net.fabricmc.loader.api.FabricLoader;
 public class ClientHandler implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
+        /*
         if (FabricLoader.getInstance().getModContainer("detailab").isPresent()) {
             DetailArmorBarSupport.register();
         }
+         */
     }
 }

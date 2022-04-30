@@ -31,12 +31,12 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.13.3",
+    "fabricloader": ">=0.14.3",
     "fabric": "*",
-    "minecraft": "1.18.2",
+    "minecraft": "1.19-alpha.22.17.a",
     "java": ">=17"
   },
-  "recommends": {
+  "suggests": {
     "detailab": "=>2.6.2"
   },
   "custom": {
