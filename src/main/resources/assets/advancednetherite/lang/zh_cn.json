@@ -60,6 +60,8 @@
   "tooltip.advancednetherite.armor.piglin_passive": "+ 震慑猪灵",
   "tooltip.advancednetherite.armor.phantom_passive": "+ 震慑幻翼",
 
+  "tooltip.advancednetherite.hoe.additional_crop_drops": "+ Chance of dropping additional crop drops while harvesting grown crops",
+
   "tooltip.advancednetherite.pickaxe.additional_diamond_drop": "+ 挖掘钻石矿石时掉落额外钻石的概率",
   "tooltip.advancednetherite.pickaxe.additional_emerald_drop": "+ 挖掘绿宝石矿石时掉落额外绿宝石的概率",
   "tooltip.advancednetherite.pickaxe.additional_gold_drop": "+ 挖掘金矿石时掉落额外粗金的概率",

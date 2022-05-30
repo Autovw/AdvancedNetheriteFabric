@@ -60,6 +60,8 @@
   "tooltip.advancednetherite.armor.piglin_passive": "+ Neutraliseert piglins",
   "tooltip.advancednetherite.armor.phantom_passive": "+ Neutraliseert fantomen",
 
+  "tooltip.advancednetherite.hoe.additional_crop_drops": "+ Chance of dropping additional crop drops while harvesting grown crops",
+
   "tooltip.advancednetherite.pickaxe.additional_diamond_drop": "+ Kans op een extra Diamant bij het mijnen van diamanterts",
   "tooltip.advancednetherite.pickaxe.additional_emerald_drop": "+ Kans op een extra Smaragd bij het mijnen van smaragderts",
   "tooltip.advancednetherite.pickaxe.additional_gold_drop": "+ Kans op extra Ruw Goud bij het mijnen van gouderts",
