@@ -56,6 +56,8 @@
 
   "itemGroup.advancednetherite.tab": "Netherite Avanzada",
 
+  "tooltip.advancednetherite.hoe.additional_crop_drops": "+ Chance of dropping additional crop drops while harvesting grown crops",
+
   "tooltip.advancednetherite.armor.enderman_passive": "+ Endermans Pacificos",
   "tooltip.advancednetherite.armor.piglin_passive": "+ Piglins Pacificos",
   "tooltip.advancednetherite.armor.phantom_passive": "+ Pacifies Phantoms",
