@@ -42,7 +42,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// Detail Armor Bar
-	modImplementation "curse.maven:detailab-506898:${project.detailab_version}"
+	//modImplementation "curse.maven:detailab-506898:${project.detailab_version}"
 
 	// ModMenu
 	modRuntimeOnly "curse.maven:modmenu-308702:${project.modmenu_version}"
