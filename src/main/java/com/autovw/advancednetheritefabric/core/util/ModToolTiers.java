@@ -1,5 +1,6 @@
-package com.autovw.advancednetheritefabric.core;
+package com.autovw.advancednetheritefabric.core.util;
 
+import com.autovw.advancednetheritefabric.core.registry.ModItems;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;

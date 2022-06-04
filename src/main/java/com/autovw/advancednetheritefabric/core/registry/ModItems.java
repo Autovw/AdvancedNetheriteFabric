@@ -1,8 +1,10 @@
-package com.autovw.advancednetheritefabric.core;
+package com.autovw.advancednetheritefabric.core.registry;
 
 import com.autovw.advancednetheritefabric.AdvancedNetheriteFabric;
 import com.autovw.advancednetheritefabric.Reference;
 import com.autovw.advancednetheritefabric.common.item.*;
+import com.autovw.advancednetheritefabric.core.util.ModArmorTiers;
+import com.autovw.advancednetheritefabric.core.util.ModToolTiers;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;

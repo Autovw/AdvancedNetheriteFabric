@@ -1,4 +1,4 @@
-package com.autovw.advancednetheritefabric.core;
+package com.autovw.advancednetheritefabric.core.registry;
 
 import com.autovw.advancednetheritefabric.Reference;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;

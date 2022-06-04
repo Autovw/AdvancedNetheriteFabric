@@ -1,4 +1,4 @@
-package com.autovw.advancednetheritefabric.core;
+package com.autovw.advancednetheritefabric.core.util;
 
 import com.autovw.advancednetheritefabric.Reference;
 import net.minecraft.block.Block;
