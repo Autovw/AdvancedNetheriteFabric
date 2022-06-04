@@ -1,6 +1,6 @@
 package com.autovw.advancednetheritefabric.common.item;
 
-import com.autovw.advancednetheritefabric.common.Tooltips;
+import com.autovw.advancednetheritefabric.core.util.ModTooltips;
 import com.autovw.advancednetheritefabric.core.util.ModTags;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.EquipmentSlot;
@@ -33,9 +33,9 @@ public class AdvancedArmorItem extends ArmorItem {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        if (pacifyPhantoms(stack)) tooltip.add(Tooltips.phantomPassiveTooltip);
-        if (pacifyPiglins(stack)) tooltip.add(Tooltips.piglinPassiveTooltip);
-        if (pacifyEndermen(stack)) tooltip.add(Tooltips.endermaskTooltip);
+        if (pacifyPhantoms(stack)) tooltip.add(ModTooltips.phantomPassiveTooltip);
+        if (pacifyPiglins(stack)) tooltip.add(ModTooltips.piglinPassiveTooltip);
+        if (pacifyEndermen(stack)) tooltip.add(ModTooltips.endermaskTooltip);
     }
 
     public boolean pacifyPhantoms(ItemStack stack) {

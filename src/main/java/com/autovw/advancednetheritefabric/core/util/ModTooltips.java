@@ -1,4 +1,4 @@
-package com.autovw.advancednetheritefabric.common;
+package com.autovw.advancednetheritefabric.core.util;
 
 import com.autovw.advancednetheritefabric.Reference;
 import net.minecraft.text.TranslatableText;
@@ -7,7 +7,7 @@ import net.minecraft.util.Formatting;
 /**
  * Author: Autovw
  */
-public class Tooltips {
+public class ModTooltips {
 
     public static final TranslatableText endermaskTooltip = tooltip("armor.enderman_passive", Formatting.DARK_GREEN);
     public static final TranslatableText piglinPassiveTooltip = tooltip("armor.piglin_passive", Formatting.GOLD);
