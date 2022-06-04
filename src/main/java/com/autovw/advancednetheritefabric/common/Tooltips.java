@@ -1,6 +1,6 @@
-package com.autovw.advancednetherite.common;
+package com.autovw.advancednetheritefabric.common;
 
-import com.autovw.advancednetherite.Reference;
+import com.autovw.advancednetheritefabric.Reference;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Formatting;
 

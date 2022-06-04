@@ -1,4 +1,4 @@
-package com.autovw.advancednetherite.common.item;
+package com.autovw.advancednetheritefabric.common.item;
 
 import net.minecraft.item.HoeItem;
 import net.minecraft.item.ToolMaterial;

@@ -1,6 +1,6 @@
-package com.autovw.advancednetherite.mixin;
+package com.autovw.advancednetheritefabric.mixin;
 
-import com.autovw.advancednetherite.common.item.AdvancedArmorItem;
+import com.autovw.advancednetheritefabric.common.item.AdvancedArmorItem;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.mob.FlyingEntity;

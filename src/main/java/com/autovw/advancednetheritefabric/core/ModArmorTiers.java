@@ -1,6 +1,6 @@
-package com.autovw.advancednetherite.core;
+package com.autovw.advancednetheritefabric.core;
 
-import com.autovw.advancednetherite.Reference;
+import com.autovw.advancednetheritefabric.Reference;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;

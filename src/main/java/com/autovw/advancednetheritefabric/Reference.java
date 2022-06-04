@@ -1,4 +1,4 @@
-package com.autovw.advancednetherite;
+package com.autovw.advancednetheritefabric;
 
 /**
  * Author: Autovw

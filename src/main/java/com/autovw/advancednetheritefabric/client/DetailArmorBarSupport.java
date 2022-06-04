@@ -1,7 +1,7 @@
-package com.autovw.advancednetherite.client;
+package com.autovw.advancednetheritefabric.client;
 
-import com.autovw.advancednetherite.Reference;
-import com.autovw.advancednetherite.core.ModItems;
+import com.autovw.advancednetheritefabric.Reference;
+import com.autovw.advancednetheritefabric.core.ModItems;
 import com.redlimerl.detailab.api.DetailArmorBarAPI;
 import com.redlimerl.detailab.api.render.ArmorBarRenderManager;
 import com.redlimerl.detailab.api.render.TextureOffset;

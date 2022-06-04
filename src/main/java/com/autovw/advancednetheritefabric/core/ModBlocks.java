@@ -1,6 +1,6 @@
-package com.autovw.advancednetherite.core;
+package com.autovw.advancednetheritefabric.core;
 
-import com.autovw.advancednetherite.Reference;
+import com.autovw.advancednetheritefabric.Reference;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

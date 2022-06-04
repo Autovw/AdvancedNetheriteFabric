@@ -1,6 +1,6 @@
-package com.autovw.advancednetherite.mixin;
+package com.autovw.advancednetheritefabric.mixin;
 
-import com.autovw.advancednetherite.common.item.AdvancedArmorItem;
+import com.autovw.advancednetheritefabric.common.item.AdvancedArmorItem;
 import net.minecraft.client.render.entity.feature.ArmorFeatureRenderer;
 import net.minecraft.client.render.entity.feature.FeatureRenderer;
 import net.minecraft.client.render.entity.feature.FeatureRendererContext;

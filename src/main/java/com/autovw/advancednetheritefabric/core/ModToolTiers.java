@@ -1,4 +1,4 @@
-package com.autovw.advancednetherite.core;
+package com.autovw.advancednetheritefabric.core;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterial;

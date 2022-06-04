@@ -20,10 +20,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.autovw.advancednetherite.AdvancedNetheriteFabric"
+      "com.autovw.advancednetheritefabric.AdvancedNetheriteFabric"
     ],
     "client": [
-      "com.autovw.advancednetherite.client.ClientHandler"
+      "com.autovw.advancednetheritefabric.client.ClientHandler"
     ]
   },
   "mixins": [

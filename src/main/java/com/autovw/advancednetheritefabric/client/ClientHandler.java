@@ -1,4 +1,4 @@
-package com.autovw.advancednetherite.client;
+package com.autovw.advancednetheritefabric.client;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.loader.api.FabricLoader;

@@ -1,7 +1,7 @@
-package com.autovw.advancednetherite.common.item;
+package com.autovw.advancednetheritefabric.common.item;
 
-import com.autovw.advancednetherite.common.Tooltips;
-import com.autovw.advancednetherite.core.ModTags;
+import com.autovw.advancednetheritefabric.common.Tooltips;
+import com.autovw.advancednetheritefabric.core.ModTags;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;

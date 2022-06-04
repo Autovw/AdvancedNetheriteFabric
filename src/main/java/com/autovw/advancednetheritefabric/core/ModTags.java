@@ -1,6 +1,6 @@
-package com.autovw.advancednetherite.core;
+package com.autovw.advancednetheritefabric.core;
 
-import com.autovw.advancednetherite.Reference;
+import com.autovw.advancednetheritefabric.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.tag.TagKey;

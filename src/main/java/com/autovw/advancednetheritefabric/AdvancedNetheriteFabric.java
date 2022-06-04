@@ -1,7 +1,7 @@
-package com.autovw.advancednetherite;
+package com.autovw.advancednetheritefabric;
 
-import com.autovw.advancednetherite.core.ModBlocks;
-import com.autovw.advancednetherite.core.ModItems;
+import com.autovw.advancednetheritefabric.core.ModBlocks;
+import com.autovw.advancednetheritefabric.core.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
