@@ -24,6 +24,9 @@
     ],
     "client": [
       "com.autovw.advancednetheritefabric.client.ClientHandler"
+    ],
+    "fabric-datagen": [
+      "com.autovw.advancednetheritefabric.datagen.ModDataGenerator"
     ]
   },
   "mixins": [

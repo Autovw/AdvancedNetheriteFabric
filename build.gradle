@@ -10,6 +10,20 @@ archivesBaseName = project.archives_base_name + "-fabric"
 version = project.mod_version + "-" + project.minecraft_version
 group = project.maven_group
 
+sourceSets.main.resources { srcDir 'src/generated/resources' } // src directory for data generator output
+
+loom.runs {
+	datagen {
+		server()
+		vmArg "-Dfabric-api.datagen"
+		vmArg "-Dfabric-api.datagen.output-dir=${file("src/generated/resources")}"
+		vmArg "-Dfabric-api.datagen.strict-validation"
+
+		runDir "build/datagen"
+	}
+}
+assemble.dependsOn runDatagen
+
 repositories {
 	maven {
 		url "https://www.cursemaven.com"
