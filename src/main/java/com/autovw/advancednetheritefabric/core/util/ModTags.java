@@ -19,6 +19,7 @@ public class ModTags {
     }
 
     // ITEM TAGS
+    public static final TagKey<Item> NETHERITE_BLOCK_ITEMS = itemTag("netherite_blocks");
     public static final TagKey<Item> NETHERITE_INGOTS = itemTag("netherite_ingots");
     public static final TagKey<Item> UPGRADE_TO_NETHERITE_DIAMOND = itemTag("upgrade_to_netherite_diamond");
     public static final TagKey<Item> UPGRADE_TO_NETHERITE_EMERALD = itemTag("upgrade_to_netherite_emerald");
