@@ -68,8 +68,8 @@ public enum ModArmorTiers implements ArmorMaterial {
 
     /**
      * By default, armor textures are loaded from the 'minecraft' namespace.
-     * Thanks to {@link com.autovw.advancednetherite.mixin.ArmorFeatureRendererMixin} we can load them from a custom namespace.
-     * Bear in mind the armor item <b>must be</b> an instance of {@link com.autovw.advancednetherite.common.item.AdvancedArmorItem} for maximum compatibility with other mods.
+     * Thanks to {@link com.autovw.advancednetheritefabric.mixin.ArmorFeatureRendererMixin} we can load them from a custom namespace.
+     * Bear in mind the armor item <b>must be</b> an instance of {@link com.autovw.advancednetheritefabric.common.item.AdvancedArmorItem} for maximum compatibility with other mods.
      * @return Name of the tier
      */
     @Override
