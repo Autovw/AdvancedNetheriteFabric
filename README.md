@@ -1,4 +1,4 @@
-![Banner](https://i.postimg.cc/DZ2ShqTP/Advanced-Netherite-Banner-V11fabric.png)
+![Banner](https://i.postimg.cc/d1mY0f51/Advanced-Netherite-Banner-V13fabric.png)
 # Advanced Netherite [FABRIC]
 
 This is the **Fabric** version, click [here](https://www.curseforge.com/minecraft/mc-mods/advanced-netherite) for the Forge version.
@@ -9,6 +9,8 @@ This is the **Fabric** version, click [here](https://www.curseforge.com/minecraf
 The goal of the mod is to extend the vanilla Minecraft experience by adding more goals to achieve.
 
 For more information visit the [Advanced Netherite Wiki](https://github.com/Autovw/AdvancedNetherite/wiki)!
+
+Thanks [LizterZapZap](https://twitter.com/LizterZapZap) for creating the new "Advanced Netherite" logo!
 
 ![Break](https://i.postimg.cc/FKmD9Nbm/advancednetheritebreak.png)
 ### ✅ Features
