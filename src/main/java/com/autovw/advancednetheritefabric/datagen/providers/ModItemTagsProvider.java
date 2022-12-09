@@ -2,23 +2,25 @@ package com.autovw.advancednetheritefabric.datagen.providers;
 
 import com.autovw.advancednetheritefabric.core.registry.ModItems;
 import com.autovw.advancednetheritefabric.core.util.ModTags;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.fabricmc.fabric.api.tag.convention.v1.ConventionalItemTags;
 import net.minecraft.item.Items;
-import net.minecraft.tag.ItemTags;
-import org.jetbrains.annotations.Nullable;
+import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
+
+import java.util.concurrent.CompletableFuture;
 
 /**
  * Author: Autovw
  */
 public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
-    public ModItemTagsProvider(FabricDataGenerator dataGenerator, @Nullable BlockTagProvider blockTagProvider) {
-        super(dataGenerator, blockTagProvider);
+    public ModItemTagsProvider(FabricDataOutput dataOutput, CompletableFuture<RegistryWrapper.WrapperLookup> completableFuture) {
+        super(dataOutput, completableFuture, new ModBlockTagsProvider(dataOutput, completableFuture));
     }
 
     @Override
-    protected void generateTags() {
+    protected void configure(RegistryWrapper.WrapperLookup arg) {
         // Mod item tags
         copy(ModTags.NETHERITE_BLOCKS, ModTags.NETHERITE_BLOCK_ITEMS);
         getOrCreateTagBuilder(ModTags.NETHERITE_INGOTS)

@@ -3,9 +3,9 @@ package com.autovw.advancednetheritefabric.core.util;
 import com.autovw.advancednetheritefabric.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraft.tag.TagKey;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 
 /**
  * Author: Autovw
@@ -15,7 +15,7 @@ public class ModTags {
     public static final TagKey<Block> NETHERITE_BLOCKS = blockTag("netherite_blocks");
 
     private static TagKey<Block> blockTag(String path) {
-        return TagKey.of(Registry.BLOCK_KEY, new Identifier(Reference.MOD_ID, path));
+        return TagKey.of(Registries.BLOCK.getKey(), new Identifier(Reference.MOD_ID, path));
     }
 
     // ITEM TAGS
@@ -146,6 +146,6 @@ public class ModTags {
     public static final TagKey<Item> CONFIG_PACIFY_ENDERMEN = itemTag("config/pacify_endermen");
 
     private static TagKey<Item> itemTag(String path) {
-        return TagKey.of(Registry.ITEM_KEY, new Identifier(Reference.MOD_ID, path));
+        return TagKey.of(Registries.ITEM.getKey(), new Identifier(Reference.MOD_ID, path));
     }
 }

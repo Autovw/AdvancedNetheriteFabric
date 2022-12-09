@@ -2,20 +2,23 @@ package com.autovw.advancednetheritefabric.datagen.providers;
 
 import com.autovw.advancednetheritefabric.core.registry.ModBlocks;
 import com.autovw.advancednetheritefabric.core.util.ModTags;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.tag.BlockTags;
+import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.BlockTags;
+
+import java.util.concurrent.CompletableFuture;
 
 /**
  * Author: Autovw
  */
 public class ModBlockTagsProvider extends FabricTagProvider.BlockTagProvider {
-    public ModBlockTagsProvider(FabricDataGenerator dataGenerator) {
-        super(dataGenerator);
+    public ModBlockTagsProvider(FabricDataOutput dataOutput, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
+        super(dataOutput, registriesFuture);
     }
 
     @Override
-    protected void generateTags() {
+    protected void configure(RegistryWrapper.WrapperLookup arg) {
         // Mod block tags
         getOrCreateTagBuilder(ModTags.NETHERITE_BLOCKS)
                 .add(ModBlocks.NETHERITE_IRON_BLOCK)

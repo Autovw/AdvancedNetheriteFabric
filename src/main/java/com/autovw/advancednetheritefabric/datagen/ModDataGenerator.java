@@ -14,10 +14,12 @@ public class ModDataGenerator implements DataGeneratorEntrypoint {
 
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator generator) {
-        generator.addProvider(ModBlockStatesProvider::new);
-        generator.addProvider(ModBlockLootTablesProvider::new);
+        FabricDataGenerator.Pack pack = generator.createPack();
 
-        ModBlockTagsProvider blockTagsProvider = generator.addProvider(ModBlockTagsProvider::new);
-        generator.addProvider(new ModItemTagsProvider(generator, blockTagsProvider));
+        pack.addProvider(ModBlockStatesProvider::new);
+        pack.addProvider(ModBlockLootTablesProvider::new);
+
+        pack.addProvider(ModBlockTagsProvider::new);
+        pack.addProvider(ModItemTagsProvider::new);
     }
 }

@@ -3,7 +3,7 @@ package com.autovw.advancednetheritefabric.datagen.providers;
 import com.autovw.advancednetheritefabric.Reference;
 import com.autovw.advancednetheritefabric.core.registry.ModBlocks;
 import com.autovw.advancednetheritefabric.core.registry.ModItems;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
@@ -14,8 +14,8 @@ import net.minecraft.util.Identifier;
  * Author: Autovw
  */
 public class ModBlockStatesProvider extends FabricModelProvider {
-    public ModBlockStatesProvider(FabricDataGenerator generator) {
-        super(generator);
+    public ModBlockStatesProvider(FabricDataOutput dataOutput) {
+        super(dataOutput);
     }
 
     @Override
