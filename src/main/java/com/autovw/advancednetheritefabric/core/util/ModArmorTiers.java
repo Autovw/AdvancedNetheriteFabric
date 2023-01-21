@@ -10,7 +10,7 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
 /**
- * Author: Autovw
+ * @author Autovw
  */
 public enum ModArmorTiers implements ArmorMaterial {
     NETHERITE_IRON("netherite_iron", 39, new int[] { 4, 6, 8, 4 }, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
@@ -66,12 +66,6 @@ public enum ModArmorTiers implements ArmorMaterial {
         return Ingredient.ofStacks(this.repairIngredient.getDefaultStack());
     }
 
-    /**
-     * By default, armor textures are loaded from the 'minecraft' namespace.
-     * Thanks to {@link com.autovw.advancednetheritefabric.mixin.ArmorFeatureRendererMixin} we can load them from a custom namespace.
-     * Bear in mind the armor item <b>must be</b> an instance of {@link com.autovw.advancednetheritefabric.common.item.AdvancedArmorItem} for maximum compatibility with other mods.
-     * @return Name of the tier
-     */
     @Override
     public String getName() {
         return Reference.MOD_ID + ":" + this.name;
