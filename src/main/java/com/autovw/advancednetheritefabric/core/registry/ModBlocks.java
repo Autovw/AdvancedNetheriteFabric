@@ -9,9 +9,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 /**
- * Author: Autovw
+ * @author Autovw
  */
-public class ModBlocks {
+public final class ModBlocks {
 
     // Blocks
     public static final Block NETHERITE_IRON_BLOCK = new Block(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK));

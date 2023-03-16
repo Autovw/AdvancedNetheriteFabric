@@ -3,7 +3,6 @@ package com.autovw.advancednetheritefabric.common.item;
 import com.autovw.advancednetheritefabric.core.util.ModTooltips;
 import com.autovw.advancednetheritefabric.core.util.ModTags;
 import net.minecraft.client.item.TooltipContext;
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemStack;
@@ -14,16 +13,14 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 /**
- * Author: Autovw
- * <br/>
- * Implementation of {@link ArmorItem} which fixes Knockback resistance not applying to armor (See: {@link com.autovw.advancednetheritefabric.mixin.ArmorItemMixin}),
- * armor textures not loading from custom namespaces (See: {@link com.autovw.advancednetheritefabric.mixin.ArmorFeatureRendererMixin}),
+ * Implementation of {@link ArmorItem} which fixes Knockback resistance not applying to armor (See: {@link com.autovw.advancednetheritefabric.mixin.ArmorItemMixin})
  * and compatibility with armor perks added by Advanced Netherite.
  * @since 1.5.0
+ * @author Autovw
  */
 public class AdvancedArmorItem extends ArmorItem {
-    public AdvancedArmorItem(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
-        super(material, slot, settings);
+    public AdvancedArmorItem(ArmorMaterial material, ArmorItem.Type armorType, Settings settings) {
+        super(material, armorType, settings);
     }
 
     @Override

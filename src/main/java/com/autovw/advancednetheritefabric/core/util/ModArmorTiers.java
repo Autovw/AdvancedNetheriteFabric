@@ -2,7 +2,7 @@ package com.autovw.advancednetheritefabric.core.util;
 
 import com.autovw.advancednetheritefabric.Reference;
 import com.autovw.advancednetheritefabric.core.registry.ModItems;
-import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
 import net.minecraft.recipe.Ingredient;
@@ -42,13 +42,13 @@ public enum ModArmorTiers implements ArmorMaterial {
     }
 
     @Override
-    public int getDurability(EquipmentSlot slot) {
-        return HEALTH_PER_SLOT[slot.getEntitySlotId()] * this.durability;
+    public int getDurability(ArmorItem.Type type) {
+        return HEALTH_PER_SLOT[type.getEquipmentSlot().getEntitySlotId()] * this.durability;
     }
 
     @Override
-    public int getProtectionAmount(EquipmentSlot slot) {
-        return this.slotProtections[slot.getEntitySlotId()];
+    public int getProtection(ArmorItem.Type type) {
+        return this.slotProtections[type.getEquipmentSlot().getEntitySlotId()];
     }
 
     @Override

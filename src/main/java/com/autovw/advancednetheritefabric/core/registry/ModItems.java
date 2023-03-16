@@ -4,7 +4,7 @@ import com.autovw.advancednetheritefabric.Reference;
 import com.autovw.advancednetheritefabric.common.item.*;
 import com.autovw.advancednetheritefabric.core.util.ModArmorTiers;
 import com.autovw.advancednetheritefabric.core.util.ModToolTiers;
-import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolItem;
@@ -13,9 +13,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 /**
- * Author: Autovw
+ * @author Autovw
  */
-public class ModItems {
+public final class ModItems {
 
     // Ingots
     public static final Item NETHERITE_IRON_INGOT = new Item(new Item.Settings().fireproof());
@@ -25,25 +25,25 @@ public class ModItems {
 
     // Armor
     // Netherite-Iron
-    public static final Item NETHERITE_IRON_HELMET = new AdvancedArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.HEAD, (new Item.Settings()));
-    public static final Item NETHERITE_IRON_CHESTPLATE = new AdvancedArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.CHEST, (new Item.Settings()));
-    public static final Item NETHERITE_IRON_LEGGINGS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.LEGS, (new Item.Settings()));
-    public static final Item NETHERITE_IRON_BOOTS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_IRON, EquipmentSlot.FEET, (new Item.Settings()));
+    public static final Item NETHERITE_IRON_HELMET = new AdvancedArmorItem(ModArmorTiers.NETHERITE_IRON, ArmorItem.Type.HELMET, (new Item.Settings()));
+    public static final Item NETHERITE_IRON_CHESTPLATE = new AdvancedArmorItem(ModArmorTiers.NETHERITE_IRON, ArmorItem.Type.CHESTPLATE, (new Item.Settings()));
+    public static final Item NETHERITE_IRON_LEGGINGS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_IRON, ArmorItem.Type.LEGGINGS, (new Item.Settings()));
+    public static final Item NETHERITE_IRON_BOOTS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_IRON, ArmorItem.Type.BOOTS, (new Item.Settings()));
     // Netherite-Gold
-    public static final Item NETHERITE_GOLD_HELMET = new AdvancedArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.HEAD, (new Item.Settings()));
-    public static final Item NETHERITE_GOLD_CHESTPLATE = new AdvancedArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.CHEST, (new Item.Settings()));
-    public static final Item NETHERITE_GOLD_LEGGINGS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.LEGS, (new Item.Settings()));
-    public static final Item NETHERITE_GOLD_BOOTS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_GOLD, EquipmentSlot.FEET, (new Item.Settings()));
+    public static final Item NETHERITE_GOLD_HELMET = new AdvancedArmorItem(ModArmorTiers.NETHERITE_GOLD, ArmorItem.Type.HELMET, (new Item.Settings()));
+    public static final Item NETHERITE_GOLD_CHESTPLATE = new AdvancedArmorItem(ModArmorTiers.NETHERITE_GOLD, ArmorItem.Type.CHESTPLATE, (new Item.Settings()));
+    public static final Item NETHERITE_GOLD_LEGGINGS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_GOLD, ArmorItem.Type.LEGGINGS, (new Item.Settings()));
+    public static final Item NETHERITE_GOLD_BOOTS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_GOLD, ArmorItem.Type.BOOTS, (new Item.Settings()));
     // Netherite-Emerald
-    public static final Item NETHERITE_EMERALD_HELMET = new AdvancedArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.HEAD, (new Item.Settings()));
-    public static final Item NETHERITE_EMERALD_CHESTPLATE = new AdvancedArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.CHEST, (new Item.Settings()));
-    public static final Item NETHERITE_EMERALD_LEGGINGS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.LEGS, (new Item.Settings()));
-    public static final Item NETHERITE_EMERALD_BOOTS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_EMERALD, EquipmentSlot.FEET, (new Item.Settings()));
+    public static final Item NETHERITE_EMERALD_HELMET = new AdvancedArmorItem(ModArmorTiers.NETHERITE_EMERALD, ArmorItem.Type.HELMET, (new Item.Settings()));
+    public static final Item NETHERITE_EMERALD_CHESTPLATE = new AdvancedArmorItem(ModArmorTiers.NETHERITE_EMERALD, ArmorItem.Type.CHESTPLATE, (new Item.Settings()));
+    public static final Item NETHERITE_EMERALD_LEGGINGS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_EMERALD, ArmorItem.Type.LEGGINGS, (new Item.Settings()));
+    public static final Item NETHERITE_EMERALD_BOOTS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_EMERALD, ArmorItem.Type.BOOTS, (new Item.Settings()));
     // Netherite-Diamond
-    public static final Item NETHERITE_DIAMOND_HELMET = new AdvancedArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.HEAD, (new Item.Settings()));
-    public static final Item NETHERITE_DIAMOND_CHESTPLATE = new AdvancedArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.CHEST, (new Item.Settings()));
-    public static final Item NETHERITE_DIAMOND_LEGGINGS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.LEGS, (new Item.Settings()));
-    public static final Item NETHERITE_DIAMOND_BOOTS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_DIAMOND, EquipmentSlot.FEET, (new Item.Settings()));
+    public static final Item NETHERITE_DIAMOND_HELMET = new AdvancedArmorItem(ModArmorTiers.NETHERITE_DIAMOND, ArmorItem.Type.HELMET, (new Item.Settings()));
+    public static final Item NETHERITE_DIAMOND_CHESTPLATE = new AdvancedArmorItem(ModArmorTiers.NETHERITE_DIAMOND, ArmorItem.Type.CHESTPLATE, (new Item.Settings()));
+    public static final Item NETHERITE_DIAMOND_LEGGINGS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_DIAMOND, ArmorItem.Type.LEGGINGS, (new Item.Settings()));
+    public static final Item NETHERITE_DIAMOND_BOOTS = new AdvancedArmorItem(ModArmorTiers.NETHERITE_DIAMOND, ArmorItem.Type.BOOTS, (new Item.Settings()));
 
     // Tools
     // Axes

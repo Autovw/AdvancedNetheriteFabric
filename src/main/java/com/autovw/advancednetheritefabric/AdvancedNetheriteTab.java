@@ -18,7 +18,7 @@ public class AdvancedNetheriteTab {
         FabricItemGroup.builder(new Identifier(Reference.MOD_ID, "tab"))
                 .icon(() -> new ItemStack(ModItems.NETHERITE_GOLD_INGOT))
                 .displayName(Text.translatable("itemGroup." + Reference.MOD_ID + ".tab"))
-                .entries((enabledFeatures, entries, operatorEnabled) -> {
+                .entries((context, entries) -> {
                     // Ingots
                     entries.add(ModItems.NETHERITE_IRON_INGOT);
                     entries.add(ModItems.NETHERITE_GOLD_INGOT);
