@@ -4,7 +4,6 @@ import com.autovw.advancednetheritefabric.core.registry.ModItems;
 import com.autovw.advancednetheritefabric.core.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.fabricmc.fabric.api.tag.convention.v1.ConventionalItemTags;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
@@ -42,6 +41,11 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.INGOTS_UPGRADE_TO_NETHERITE_GOLD).addTag(ModTags.INGOTS_NETHERITES_IRON);
         getOrCreateTagBuilder(ModTags.INGOTS_UPGRADE_TO_NETHERITE_EMERALD).addTag(ModTags.INGOTS_NETHERITES_GOLD);
         getOrCreateTagBuilder(ModTags.INGOTS_UPGRADE_TO_NETHERITE_DIAMOND).addTag(ModTags.INGOTS_NETHERITES_EMERALD);
+        getOrCreateTagBuilder(ModTags.EPIC_ITEM)
+                .add(ModItems.NETHERITE_IRON_INGOT)
+                .add(ModItems.NETHERITE_GOLD_INGOT)
+                .add(ModItems.NETHERITE_EMERALD_INGOT)
+                .add(ModItems.NETHERITE_DIAMOND_INGOT);
 
         getOrCreateTagBuilder(ModTags.AXES_NETHERITE).add(Items.NETHERITE_AXE);
         getOrCreateTagBuilder(ModTags.AXES_NETHERITE_IRON).add(ModItems.NETHERITE_IRON_AXE);
@@ -52,6 +56,12 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.AXES_UPGRADE_TO_NETHERITE_GOLD).addTag(ModTags.AXES_NETHERITE_IRON);
         getOrCreateTagBuilder(ModTags.AXES_UPGRADE_TO_NETHERITE_EMERALD).addTag(ModTags.AXES_NETHERITE_GOLD);
         getOrCreateTagBuilder(ModTags.AXES_UPGRADE_TO_NETHERITE_DIAMOND).addTag(ModTags.AXES_NETHERITE_EMERALD);
+        getOrCreateTagBuilder(ModTags.EPIC_ITEM)
+                .add(ModItems.NETHERITE_IRON_AXE)
+                .add(ModItems.NETHERITE_GOLD_AXE)
+                .add(ModItems.NETHERITE_EMERALD_AXE)
+                .add(ModItems.NETHERITE_DIAMOND_AXE);
+
 
         getOrCreateTagBuilder(ModTags.HOES_NETHERITE).add(Items.NETHERITE_HOE);
         getOrCreateTagBuilder(ModTags.HOES_NETHERITE_IRON).add(ModItems.NETHERITE_IRON_HOE);
@@ -62,6 +72,11 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.HOES_UPGRADE_TO_NETHERITE_GOLD).addTag(ModTags.HOES_NETHERITE_IRON);
         getOrCreateTagBuilder(ModTags.HOES_UPGRADE_TO_NETHERITE_EMERALD).addTag(ModTags.HOES_NETHERITE_GOLD);
         getOrCreateTagBuilder(ModTags.HOES_UPGRADE_TO_NETHERITE_DIAMOND).addTag(ModTags.HOES_NETHERITE_EMERALD);
+        getOrCreateTagBuilder(ModTags.EPIC_ITEM)
+                .add(ModItems.NETHERITE_IRON_HOE)
+                .add(ModItems.NETHERITE_GOLD_HOE)
+                .add(ModItems.NETHERITE_EMERALD_HOE)
+                .add(ModItems.NETHERITE_DIAMOND_HOE);
 
         getOrCreateTagBuilder(ModTags.PICKAXES_NETHERITE).add(Items.NETHERITE_PICKAXE);
         getOrCreateTagBuilder(ModTags.PICKAXES_NETHERITE_IRON).add(ModItems.NETHERITE_IRON_PICKAXE);
@@ -72,6 +87,11 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.PICKAXES_UPGRADE_TO_NETHERITE_GOLD).addTag(ModTags.PICKAXES_NETHERITE_IRON);
         getOrCreateTagBuilder(ModTags.PICKAXES_UPGRADE_TO_NETHERITE_EMERALD).addTag(ModTags.PICKAXES_NETHERITE_GOLD);
         getOrCreateTagBuilder(ModTags.PICKAXES_UPGRADE_TO_NETHERITE_DIAMOND).addTag(ModTags.PICKAXES_NETHERITE_EMERALD);
+        getOrCreateTagBuilder(ModTags.EPIC_ITEM)
+                .add(ModItems.NETHERITE_IRON_PICKAXE)
+                .add(ModItems.NETHERITE_GOLD_PICKAXE)
+                .add(ModItems.NETHERITE_EMERALD_PICKAXE)
+                .add(ModItems.NETHERITE_DIAMOND_PICKAXE);
 
         getOrCreateTagBuilder(ModTags.SHOVELS_NETHERITE).add(Items.NETHERITE_SHOVEL);
         getOrCreateTagBuilder(ModTags.SHOVELS_NETHERITE_IRON).add(ModItems.NETHERITE_IRON_SHOVEL);
@@ -82,6 +102,11 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.SHOVELS_UPGRADE_TO_NETHERITE_GOLD).addTag(ModTags.SHOVELS_NETHERITE_IRON);
         getOrCreateTagBuilder(ModTags.SHOVELS_UPGRADE_TO_NETHERITE_EMERALD).addTag(ModTags.SHOVELS_NETHERITE_GOLD);
         getOrCreateTagBuilder(ModTags.SHOVELS_UPGRADE_TO_NETHERITE_DIAMOND).addTag(ModTags.SHOVELS_NETHERITE_EMERALD);
+        getOrCreateTagBuilder(ModTags.EPIC_ITEM)
+                .add(ModItems.NETHERITE_IRON_SHOVEL)
+                .add(ModItems.NETHERITE_GOLD_SHOVEL)
+                .add(ModItems.NETHERITE_EMERALD_SHOVEL)
+                .add(ModItems.NETHERITE_DIAMOND_SHOVEL);
 
         getOrCreateTagBuilder(ModTags.SWORDS_NETHERITE).add(Items.NETHERITE_SWORD);
         getOrCreateTagBuilder(ModTags.SWORDS_NETHERITE_IRON).add(ModItems.NETHERITE_IRON_SWORD);
@@ -92,6 +117,11 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.SWORDS_UPGRADE_TO_NETHERITE_GOLD).addTag(ModTags.SWORDS_NETHERITE_IRON);
         getOrCreateTagBuilder(ModTags.SWORDS_UPGRADE_TO_NETHERITE_EMERALD).addTag(ModTags.SWORDS_NETHERITE_GOLD);
         getOrCreateTagBuilder(ModTags.SWORDS_UPGRADE_TO_NETHERITE_DIAMOND).addTag(ModTags.SWORDS_NETHERITE_EMERALD);
+        getOrCreateTagBuilder(ModTags.EPIC_ITEM)
+                .add(ModItems.NETHERITE_IRON_SWORD)
+                .add(ModItems.NETHERITE_GOLD_SWORD)
+                .add(ModItems.NETHERITE_EMERALD_SWORD)
+                .add(ModItems.NETHERITE_DIAMOND_SWORD);
 
         getOrCreateTagBuilder(ModTags.HELMETS_NETHERITE).add(Items.NETHERITE_HELMET);
         getOrCreateTagBuilder(ModTags.HELMETS_NETHERITE_IRON).add(ModItems.NETHERITE_IRON_HELMET);
@@ -102,6 +132,11 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.HELMETS_UPGRADE_TO_NETHERITE_GOLD).addTag(ModTags.HELMETS_NETHERITE_IRON);
         getOrCreateTagBuilder(ModTags.HELMETS_UPGRADE_TO_NETHERITE_EMERALD).addTag(ModTags.HELMETS_NETHERITE_GOLD);
         getOrCreateTagBuilder(ModTags.HELMETS_UPGRADE_TO_NETHERITE_DIAMOND).addTag(ModTags.HELMETS_NETHERITE_EMERALD);
+        getOrCreateTagBuilder(ModTags.EPIC_ITEM)
+                .add(ModItems.NETHERITE_IRON_HELMET)
+                .add(ModItems.NETHERITE_GOLD_HELMET)
+                .add(ModItems.NETHERITE_EMERALD_HELMET)
+                .add(ModItems.NETHERITE_DIAMOND_HELMET);
 
         getOrCreateTagBuilder(ModTags.CHESTPLATES_NETHERITE).add(Items.NETHERITE_CHESTPLATE);
         getOrCreateTagBuilder(ModTags.CHESTPLATES_NETHERITE_IRON).add(ModItems.NETHERITE_IRON_CHESTPLATE);
@@ -112,6 +147,11 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.CHESTPLATES_UPGRADE_TO_NETHERITE_GOLD).addTag(ModTags.CHESTPLATES_NETHERITE_IRON);
         getOrCreateTagBuilder(ModTags.CHESTPLATES_UPGRADE_TO_NETHERITE_EMERALD).addTag(ModTags.CHESTPLATES_NETHERITE_GOLD);
         getOrCreateTagBuilder(ModTags.CHESTPLATES_UPGRADE_TO_NETHERITE_DIAMOND).addTag(ModTags.CHESTPLATES_NETHERITE_EMERALD);
+        getOrCreateTagBuilder(ModTags.EPIC_ITEM)
+                .add(ModItems.NETHERITE_IRON_CHESTPLATE)
+                .add(ModItems.NETHERITE_GOLD_CHESTPLATE)
+                .add(ModItems.NETHERITE_EMERALD_CHESTPLATE)
+                .add(ModItems.NETHERITE_DIAMOND_CHESTPLATE);
 
         getOrCreateTagBuilder(ModTags.LEGGINGS_NETHERITE).add(Items.NETHERITE_LEGGINGS);
         getOrCreateTagBuilder(ModTags.LEGGINGS_NETHERITE_IRON).add(ModItems.NETHERITE_IRON_LEGGINGS);
@@ -122,6 +162,11 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.LEGGINGS_UPGRADE_TO_NETHERITE_GOLD).addTag(ModTags.LEGGINGS_NETHERITE_IRON);
         getOrCreateTagBuilder(ModTags.LEGGINGS_UPGRADE_TO_NETHERITE_EMERALD).addTag(ModTags.LEGGINGS_NETHERITE_GOLD);
         getOrCreateTagBuilder(ModTags.LEGGINGS_UPGRADE_TO_NETHERITE_DIAMOND).addTag(ModTags.LEGGINGS_NETHERITE_EMERALD);
+        getOrCreateTagBuilder(ModTags.EPIC_ITEM)
+                .add(ModItems.NETHERITE_IRON_LEGGINGS)
+                .add(ModItems.NETHERITE_GOLD_LEGGINGS)
+                .add(ModItems.NETHERITE_EMERALD_LEGGINGS)
+                .add(ModItems.NETHERITE_DIAMOND_LEGGINGS);
 
         getOrCreateTagBuilder(ModTags.BOOTS_NETHERITE).add(Items.NETHERITE_BOOTS);
         getOrCreateTagBuilder(ModTags.BOOTS_NETHERITE_IRON).add(ModItems.NETHERITE_IRON_BOOTS);
@@ -132,6 +177,17 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.BOOTS_UPGRADE_TO_NETHERITE_GOLD).addTag(ModTags.BOOTS_NETHERITE_IRON);
         getOrCreateTagBuilder(ModTags.BOOTS_UPGRADE_TO_NETHERITE_EMERALD).addTag(ModTags.BOOTS_NETHERITE_GOLD);
         getOrCreateTagBuilder(ModTags.BOOTS_UPGRADE_TO_NETHERITE_DIAMOND).addTag(ModTags.BOOTS_NETHERITE_EMERALD);
+        getOrCreateTagBuilder(ModTags.EPIC_ITEM)
+                .add(ModItems.NETHERITE_IRON_BOOTS)
+                .add(ModItems.NETHERITE_GOLD_BOOTS)
+                .add(ModItems.NETHERITE_EMERALD_BOOTS)
+                .add(ModItems.NETHERITE_DIAMOND_BOOTS);
+
+        getOrCreateTagBuilder(ModTags.EPIC_ITEM)
+                .add(ModItems.NETHERITE_IRON_BLOCK)
+                .add(ModItems.NETHERITE_GOLD_BLOCK)
+                .add(ModItems.NETHERITE_EMERALD_BLOCK)
+                .add(ModItems.NETHERITE_DIAMOND_BLOCK);
 
         // tiers
         getOrCreateTagBuilder(ModTags.TIERS_ARMOR)
@@ -201,27 +257,27 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
 
 
         // Fabric item tags
-        getOrCreateTagBuilder(ConventionalItemTags.AXES)
+        getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.NETHERITE_IRON_AXE)
                 .add(ModItems.NETHERITE_GOLD_AXE)
                 .add(ModItems.NETHERITE_EMERALD_AXE)
                 .add(ModItems.NETHERITE_DIAMOND_AXE);
-        getOrCreateTagBuilder(ConventionalItemTags.HOES)
+        getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.NETHERITE_IRON_HOE)
                 .add(ModItems.NETHERITE_GOLD_HOE)
                 .add(ModItems.NETHERITE_EMERALD_HOE)
                 .add(ModItems.NETHERITE_DIAMOND_HOE);
-        getOrCreateTagBuilder(ConventionalItemTags.PICKAXES)
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.NETHERITE_IRON_PICKAXE)
                 .add(ModItems.NETHERITE_GOLD_PICKAXE)
                 .add(ModItems.NETHERITE_EMERALD_PICKAXE)
                 .add(ModItems.NETHERITE_DIAMOND_PICKAXE);
-        getOrCreateTagBuilder(ConventionalItemTags.SHOVELS)
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
                 .add(ModItems.NETHERITE_IRON_SHOVEL)
                 .add(ModItems.NETHERITE_GOLD_SHOVEL)
                 .add(ModItems.NETHERITE_EMERALD_SHOVEL)
                 .add(ModItems.NETHERITE_DIAMOND_SHOVEL);
-        getOrCreateTagBuilder(ConventionalItemTags.SWORDS)
+        getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.NETHERITE_IRON_SWORD)
                 .add(ModItems.NETHERITE_GOLD_SWORD)
                 .add(ModItems.NETHERITE_EMERALD_SWORD)
