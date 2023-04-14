@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "advancednetherite:netherite_diamond_ingot",
+
+    "advancednetherite:netherite_diamond_shovel",
+    "advancednetherite:netherite_diamond_hoe",
+    "advancednetherite:netherite_diamond_axe",
+    "advancednetherite:netherite_diamond_sword",
+    "advancednetherite:netherite_diamond_pickaxe",
+
+    "advancednetherite:netherite_diamond_block",
+
+    "advancednetherite:netherite_diamond_helmet",
+    "advancednetherite:netherite_diamond_chestplate",
+    "advancednetherite:netherite_diamond_leggings",
+    "advancednetherite:netherite_diamond_boots"
+  ]
+}
