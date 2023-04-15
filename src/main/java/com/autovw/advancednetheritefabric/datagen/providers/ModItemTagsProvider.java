@@ -4,6 +4,7 @@ import com.autovw.advancednetheritefabric.core.registry.ModItems;
 import com.autovw.advancednetheritefabric.core.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.fabricmc.fabric.api.tag.convention.v1.ConventionalItemTags;
 import net.minecraft.item.Items;
 import net.minecraft.tag.ItemTags;
 import org.jetbrains.annotations.Nullable;
@@ -202,27 +203,27 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
 
 
         // Fabric item tags
-        getOrCreateTagBuilder(ItemTags.AXES)
+        getOrCreateTagBuilder(ConventionalItemTags.AXES)
                 .add(ModItems.NETHERITE_IRON_AXE)
                 .add(ModItems.NETHERITE_GOLD_AXE)
                 .add(ModItems.NETHERITE_EMERALD_AXE)
                 .add(ModItems.NETHERITE_DIAMOND_AXE);
-        getOrCreateTagBuilder(ItemTags.HOES)
+        getOrCreateTagBuilder(ConventionalItemTags.HOES)
                 .add(ModItems.NETHERITE_IRON_HOE)
                 .add(ModItems.NETHERITE_GOLD_HOE)
                 .add(ModItems.NETHERITE_EMERALD_HOE)
                 .add(ModItems.NETHERITE_DIAMOND_HOE);
-        getOrCreateTagBuilder(ItemTags.PICKAXES)
+        getOrCreateTagBuilder(ConventionalItemTags.PICKAXES)
                 .add(ModItems.NETHERITE_IRON_PICKAXE)
                 .add(ModItems.NETHERITE_GOLD_PICKAXE)
                 .add(ModItems.NETHERITE_EMERALD_PICKAXE)
                 .add(ModItems.NETHERITE_DIAMOND_PICKAXE);
-        getOrCreateTagBuilder(ItemTags.SHOVELS)
+        getOrCreateTagBuilder(ConventionalItemTags.SHOVELS)
                 .add(ModItems.NETHERITE_IRON_SHOVEL)
                 .add(ModItems.NETHERITE_GOLD_SHOVEL)
                 .add(ModItems.NETHERITE_EMERALD_SHOVEL)
                 .add(ModItems.NETHERITE_DIAMOND_SHOVEL);
-        getOrCreateTagBuilder(ItemTags.SWORDS)
+        getOrCreateTagBuilder(ConventionalItemTags.SWORDS)
                 .add(ModItems.NETHERITE_IRON_SWORD)
                 .add(ModItems.NETHERITE_GOLD_SWORD)
                 .add(ModItems.NETHERITE_EMERALD_SWORD)
