@@ -9,7 +9,7 @@ import net.minecraft.tag.ItemTags;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Author: Autovw
+ * @author Autovw
  */
 public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
     public ModItemTagsProvider(FabricDataGenerator dataGenerator, @Nullable BlockTagProvider blockTagProvider) {
@@ -19,7 +19,11 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void generateTags() {
         // Mod item tags
-        copy(ModTags.NETHERITE_BLOCKS, ModTags.NETHERITE_BLOCK_ITEMS);
+        getOrCreateTagBuilder(ModTags.NETHERITE_BLOCK_ITEMS)
+                .add(ModItems.NETHERITE_IRON_BLOCK)
+                .add(ModItems.NETHERITE_GOLD_BLOCK)
+                .add(ModItems.NETHERITE_EMERALD_BLOCK)
+                .add(ModItems.NETHERITE_DIAMOND_BLOCK);
         getOrCreateTagBuilder(ModTags.NETHERITE_INGOTS)
                 .add(ModItems.NETHERITE_IRON_INGOT)
                 .add(ModItems.NETHERITE_GOLD_INGOT)
