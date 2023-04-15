@@ -11,17 +11,21 @@ import net.minecraft.registry.tag.ItemTags;
 import java.util.concurrent.CompletableFuture;
 
 /**
- * Author: Autovw
+ * @author Autovw
  */
 public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
     public ModItemTagsProvider(FabricDataOutput dataOutput, CompletableFuture<RegistryWrapper.WrapperLookup> completableFuture) {
-        super(dataOutput, completableFuture, new ModBlockTagsProvider(dataOutput, completableFuture));
+        super(dataOutput, completableFuture, null);
     }
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         // Mod item tags
-        copy(ModTags.NETHERITE_BLOCKS, ModTags.NETHERITE_BLOCK_ITEMS);
+        getOrCreateTagBuilder(ModTags.NETHERITE_BLOCK_ITEMS)
+                .add(ModItems.NETHERITE_IRON_BLOCK)
+                .add(ModItems.NETHERITE_GOLD_BLOCK)
+                .add(ModItems.NETHERITE_EMERALD_BLOCK)
+                .add(ModItems.NETHERITE_DIAMOND_BLOCK);
         getOrCreateTagBuilder(ModTags.NETHERITE_INGOTS)
                 .add(ModItems.NETHERITE_IRON_INGOT)
                 .add(ModItems.NETHERITE_GOLD_INGOT)
