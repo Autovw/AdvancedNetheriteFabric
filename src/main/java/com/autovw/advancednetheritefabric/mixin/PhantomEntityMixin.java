@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 /**
- * Author: Autovw
+ * @author Autovw
  */
 @Mixin(PhantomEntity.class)
 public abstract class PhantomEntityMixin extends FlyingEntity implements Monster {
@@ -27,8 +27,16 @@ public abstract class PhantomEntityMixin extends FlyingEntity implements Monster
     @Inject(method = "tick", at = @At("HEAD"), cancellable = true)
     private void advancednetherite_PhantomEntity_tick(CallbackInfo ci) {
         PhantomEntity phantom = (PhantomEntity) (Object) this; // phantom (attacker)
-        LivingEntity target = phantom.getTarget(); // phantom target
+        LivingEntity target = phantom.getTarget(); // phantom target (player)
+
+        if (target == null)
+            return;
+
         if (target instanceof PlayerEntity) {
+            // return early if the attacker was angered by the target (player)
+            if (phantom.getAttacker() == target)
+                return;
+
             for (ItemStack stack : target.getArmorItems()) {
                 Item item = stack.getItem();
                 if (item instanceof AdvancedArmorItem && ((AdvancedArmorItem) item).pacifyPhantoms(stack)) {
