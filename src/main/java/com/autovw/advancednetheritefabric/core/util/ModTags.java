@@ -145,6 +145,10 @@ public class ModTags {
     public static final TagKey<Item> CONFIG_PACIFY_PIGLINS = itemTag("config/pacify_piglins");
     public static final TagKey<Item> CONFIG_PACIFY_ENDERMEN = itemTag("config/pacify_endermen");
 
+    // "tooltiprareness" tags
+    public static final TagKey<Item> TOOLTIP_RARENESS_EPIC_ITEM = TagKey.of(Registries.ITEM.getKey(), new Identifier("tooltiprareness", "epic_item"));
+    public static final TagKey<Item> TOOLTIP_RARENESS_LEGENDARY_ITEM = TagKey.of(Registries.ITEM.getKey(), new Identifier("tooltiprareness", "legendary_item"));
+
     private static TagKey<Item> itemTag(String path) {
         return TagKey.of(Registry.ITEM_KEY, new Identifier(Reference.MOD_ID, path));
     }
